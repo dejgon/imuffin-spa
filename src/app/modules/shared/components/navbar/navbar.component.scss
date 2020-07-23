@@ -1,0 +1,15 @@
+@import '../../../../../styles/colors.scss';
+
+nav {
+    height: 5vh;
+    background: $gun-light;
+    padding: 0 .5em;
+}
+
+a {
+    transition: color 200ms;
+    &:hover {
+        cursor: pointer;
+        color: $green-light;
+    }
+}
